@@ -1,2 +1,2 @@
 # SangeetRandomizer
-Singing order randomizer using Flask, React, and Semantic-UI that stores member names and shuffles them.
+Singing order randomizer for religious classes that uses Flask, React, and Semantic-UI to store member names and shuffle them.
