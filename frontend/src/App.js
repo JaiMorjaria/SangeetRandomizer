@@ -21,6 +21,7 @@ function App() {
     <div>
     <Container style ={{marginTop: 40}}>
       <PersonForm onNewPerson={person => setPeople(currentPeople => [person, ...currentPeople ])} />
+      <h5>To shuffle the list below, simply refresh the page</h5>
      <People people={people} />
     </Container>
     </div>
