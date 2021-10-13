@@ -11,7 +11,7 @@ export const People = ({people}) => {
         <List ordered>
             {people.map(person => {
                 return (
-                    <List.Item key={person.name}>{person.name}</List.Item>
+                    <List.Item>{person.name}</List.Item>
                 )
             })}
         </List>
